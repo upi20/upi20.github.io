@@ -42,10 +42,10 @@ $(document).ready(function () {
 
   <a class="btn" href="/cv.pdf"><i class="font-icon icon-download"></i> Download CV</a><br>
   
-  <div class="d-flex d-md-none">
-    <a class="btn btn-primary mt-1 w-auto" href="/resume.html">Resume</a></a>
-    <a class="btn btn-primary mt-1 w-auto" href="/portfolio.html">Portfolio</a>
-    <a class="btn btn-primary mt-1 w-auto" href="/contact.html">Kontak</a>
+  <div class="d-md-none ">
+    <a class="btn btn-primary mt-1" href="/resume.html">Resume</a></a>
+    <a class="btn btn-primary mt-1" href="/portfolio.html">Portfolio</a>
+    <a class="btn btn-primary mt-1" href="/contact.html">Kontak</a>
   </div>
   `);
 });
