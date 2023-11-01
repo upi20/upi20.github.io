@@ -78,11 +78,11 @@
 
 		<div class="nav-wrap">
 			<ul class="nav">
-				<li class="nav__item"><a href="index.html">About</a></li>
-				<li class="nav__item"><a href="resume.html">Resume</a></li>
-				<li class="nav__item"><a class="active" href="portfolio.html">Portfolio</a></li>
-				<li class="nav__item"><a href="blog.html">Blog</a></li>
-				<li class="nav__item"><a href="contact.html">Kontak</a></li>
+				<li class="nav__item"><a href="/index.html">About</a></li>
+				<li class="nav__item"><a href="/resume.html">Resume</a></li>
+				<li class="nav__item"><a class="active" href="/portfolio.html">Portfolio</a></li>
+				<!-- <li class="nav__item"><a href="/blog.html">Blog</a></li> -->
+				<li class="nav__item"><a href="/contact.html">Kontak</a></li>
 			</ul>
 		</div>
 
@@ -99,134 +99,9 @@
 				<div class="section mt-0">
 					<h1 class="title title--h1 title__separate">Portfolio</h1>
 				</div>
-				<!-- Filter -->
-				<div class="select section">
-					<span class="placeholder">Select category</span>
-					<ul class="filter">
-						<li class="filter__item">Category</li>
-						<li class="filter__item active" data-filter="*"><a class="filter__link active"
-								href="#filter">All</a></li>
-						<li class="filter__item" data-filter=".category-concept"><a class="filter__link"
-								href="#filter">Concept</a></li>
-						<li class="filter__item" data-filter=".category-design"><a class="filter__link"
-								href="#filter">Design</a></li>
-						<li class="filter__item" data-filter=".category-life"><a class="filter__link"
-								href="#filter">Life</a></li>
-					</ul>
-					<input type="hidden" name="changemetoo" />
-				</div>
+				<div class="row grid" id="portfolios"> </div>
 
-				<!-- Content -->
-				<div class="gallery-grid js-grid js-filter-container">
-					<div class="gutter-sizer"></div>
-					<!-- Item 1 -->
-					<figure class="gallery-grid__item category-concept">
-						<div class="gallery-grid__image-wrap">
-							<img class="gallery-grid__image cover lazyload" src="./assets/img/image_01.jpg" data-zoom
-								  alt="" />
-						</div>
-						<figcaption class="gallery-grid__caption">
-							<h4 class="title title--h4 gallery-grid__title">Half Avocado</h4>
-							<span class="gallery-grid__category">Concept</span>
-						</figcaption>
-					</figure>
 
-					<!-- Item 2 -->
-					<figure class="gallery-grid__item category-concept">
-						<div class="gallery-grid__image-wrap">
-							<img class="gallery-grid__image cover lazyload" src="./assets/img/image_02.jpg" data-zoom
-								  alt="" />
-						</div>
-						<figcaption class="gallery-grid__caption">
-							<h4 class="title title--h4 gallery-grid__title">Pink Flamingo</h4>
-							<span class="gallery-grid__category">Concept</span>
-						</figcaption>
-					</figure>
-
-					<!-- Item 3 -->
-					<figure class="gallery-grid__item category-design">
-						<div class="gallery-grid__image-wrap">
-							<img class="gallery-grid__image cover lazyload" src="./assets/img/image_03.jpg" data-zoom
-								  alt="" />
-						</div>
-						<figcaption class="gallery-grid__caption">
-							<h4 class="title title--h4 gallery-grid__title">Abstract</h4>
-							<span class="gallery-grid__category">Design</span>
-						</figcaption>
-					</figure>
-
-					<!-- Item 4 -->
-					<figure class="gallery-grid__item category-design">
-						<div class="gallery-grid__image-wrap">
-							<img class="gallery-grid__image cover lazyload" src="./assets/img/image_04.jpg" data-zoom
-								  alt="" />
-						</div>
-						<figcaption class="gallery-grid__caption">
-							<h4 class="title title--h4 gallery-grid__title">Abstract #2</h4>
-							<span class="gallery-grid__category">Design</span>
-						</figcaption>
-					</figure>
-
-					<!-- Item 5 -->
-					<figure class="gallery-grid__item category-design">
-						<div class="gallery-grid__image-wrap">
-							<img class="gallery-grid__image cover lazyload" src="./assets/img/image_05.jpg" data-zoom
-								  alt="" />
-						</div>
-						<figcaption class="gallery-grid__caption">
-							<h4 class="title title--h4 gallery-grid__title">Abstract #3</h4>
-							<span class="gallery-grid__category">Design</span>
-						</figcaption>
-					</figure>
-
-					<!-- Item 6 -->
-					<figure class="gallery-grid__item category-life">
-						<div class="gallery-grid__image-wrap">
-							<img class="gallery-grid__image cover lazyload" src="./assets/img/image_06.jpg" data-zoom
-								  alt="" />
-						</div>
-						<figcaption class="gallery-grid__caption">
-							<h4 class="title title--h4 gallery-grid__title">Golden Gate</h4>
-							<span class="gallery-grid__category">Life</span>
-						</figcaption>
-					</figure>
-
-					<!-- Item 7 -->
-					<figure class="gallery-grid__item category-concept">
-						<div class="gallery-grid__image-wrap">
-							<img class="gallery-grid__image cover lazyload" src="./assets/img/image_07.jpg" data-zoom
-								  alt="" />
-						</div>
-						<figcaption class="gallery-grid__caption">
-							<h4 class="title title--h4 gallery-grid__title">Peach</h4>
-							<span class="gallery-grid__category">Concept</span>
-						</figcaption>
-					</figure>
-
-					<!-- Item 8 -->
-					<figure class="gallery-grid__item category-design">
-						<div class="gallery-grid__image-wrap">
-							<img class="gallery-grid__image cover lazyload" src="./assets/img/image_08.jpg" data-zoom
-								  alt="" />
-						</div>
-						<figcaption class="gallery-grid__caption">
-							<h4 class="title title--h4 gallery-grid__title">Abstract #4</h4>
-							<span class="gallery-grid__category">Design</span>
-						</figcaption>
-					</figure>
-
-					<!-- Item 9 -->
-					<figure class="gallery-grid__item category-life">
-						<div class="gallery-grid__image-wrap">
-							<img class="gallery-grid__image cover lazyload" src="./assets/img/image_09.jpg" data-zoom
-								  alt="" />
-						</div>
-						<figcaption class="gallery-grid__caption">
-							<h4 class="title title--h4 gallery-grid__title">Hedgehog</h4>
-							<span class="gallery-grid__category">Life</span>
-						</figcaption>
-					</figure>
-				</div>
 			</div><!-- Content End -->
 		</div><!-- Wrapper End -->
 	</main>
@@ -235,16 +110,16 @@
 	<svg class="svg-defs">
 		<clipPath id="avatar-box">
 			<path
-					d="M1.85379 38.4859C2.9221 18.6653 18.6653 2.92275 38.4858 1.85453 56.0986.905299 77.2792 0 94 0c16.721 0 37.901.905299 55.514 1.85453 19.821 1.06822 35.564 16.81077 36.632 36.63137C187.095 56.0922 188 77.267 188 94c0 16.733-.905 37.908-1.854 55.514-1.068 19.821-16.811 35.563-36.632 36.631C131.901 187.095 110.721 188 94 188c-16.7208 0-37.9014-.905-55.5142-1.855-19.8205-1.068-35.5637-16.81-36.63201-36.631C.904831 131.908 0 110.733 0 94c0-16.733.904831-37.9078 1.85379-55.5141z" />
+				d="M1.85379 38.4859C2.9221 18.6653 18.6653 2.92275 38.4858 1.85453 56.0986.905299 77.2792 0 94 0c16.721 0 37.901.905299 55.514 1.85453 19.821 1.06822 35.564 16.81077 36.632 36.63137C187.095 56.0922 188 77.267 188 94c0 16.733-.905 37.908-1.854 55.514-1.068 19.821-16.811 35.563-36.632 36.631C131.901 187.095 110.721 188 94 188c-16.7208 0-37.9014-.905-55.5142-1.855-19.8205-1.068-35.5637-16.81-36.63201-36.631C.904831 131.908 0 110.733 0 94c0-16.733.904831-37.9078 1.85379-55.5141z" />
 		</clipPath>
 		<clipPath id="avatar-hexagon">
 			<path
-					d="M0 27.2891c0-4.6662 2.4889-8.976 6.52491-11.2986L31.308 1.72845c3.98-2.290382 8.8697-2.305446 12.8637-.03963l25.234 14.31558C73.4807 18.3162 76 22.6478 76 27.3426V56.684c0 4.6805-2.5041 9.0013-6.5597 11.3186L44.4317 82.2915c-3.9869 2.278-8.8765 2.278-12.8634 0L6.55974 68.0026C2.50414 65.6853 0 61.3645 0 56.684V27.2891z" />
+				d="M0 27.2891c0-4.6662 2.4889-8.976 6.52491-11.2986L31.308 1.72845c3.98-2.290382 8.8697-2.305446 12.8637-.03963l25.234 14.31558C73.4807 18.3162 76 22.6478 76 27.3426V56.684c0 4.6805-2.5041 9.0013-6.5597 11.3186L44.4317 82.2915c-3.9869 2.278-8.8765 2.278-12.8634 0L6.55974 68.0026C2.50414 65.6853 0 61.3645 0 56.684V27.2891z" />
 		</clipPath>
 	</svg>
 
 	<!-- Demo Menu -->
-	<div class="btnSlideNav slideOpen"></div>
+	<!-- <div class="btnSlideNav slideOpen"></div>
 	<div class="btnSlideNav slideClose"></div>
 	<ul class="slideNav">
 		<li class="slideNav__item"><a href="one-page.html">1. Single page</a></li>
@@ -254,7 +129,7 @@
 		<li class="slideNav__item"><a href="background-5.html">5. Background 5</a></li>
 		<li class="slideNav__item"><a href="background-6.html">6. Background 6</a></li>
 	</ul>
-	<div class="overlay-slideNav"></div>
+	<div class="overlay-slideNav"></div> -->
 	<!-- Demo Menu -->
 
 	<!-- JavaScripts -->
@@ -264,6 +139,121 @@
 
 	<script src="./assets/demo/plugins-demo.js"></script>
 	<script src="./assets/script.js"></script>
+	<script src="https://assets.iseplutpi.site/sash/assets/plugins/mansory.min.js"></script>
+
+	<script>
+		const container = document.getElementById('portfolios');
+		const portfolios = [
+			{
+				title: 'Cempor Dispora Kota Bandung',
+				role: 'Fullstack Web Developer',
+				year: 2023,
+				link: 'http://cempor.bandung.go.id/',
+				image: '/assets/img/portfolio/cempordispora.png',
+				description: 'Merupakan aplikasi pendukung kegiatan pelatihan kewirausahaan pemuda, Untuk memonitoring peserta, kurasi pendaftar (Filter pendaftar berdasar domisili, umur, assesment dan lain sebagainya), Sertifikat, Kuis, Tugas dan lain lain.',
+			},
+			{
+				title: 'Karmapack',
+				role: 'Fullstack Web Developer',
+				year: 2022,
+				link: 'https://karmapack.id/',
+				image: '/assets/img/portfolio/Karmapack.md.png',
+				description: 'Aplikasi sistem informasi anggota organisasi Keluarga Mahasiswa dan Pelajar Cianjur Kidul (Karmapack)',
+			},
+			{
+				title: 'Hayat Atlantic Enterprise',
+				role: 'Fullstack Web Developer',
+				year: 2022,
+				link: 'https://hayatatlanticenterprise.com/',
+				image: '/assets/img/portfolio/hae.png',
+				description: 'Hayat Atlantic Enterprise, Aplikasi pengelolaan persewaan alat-alat pesta dan kotraktor pameran.',
+			},
+			{
+				title: 'Green Education Bandung',
+				role: 'Fullstack Web Developer',
+				year: 2022,
+				link: 'https://greeneducationbdg.com/',
+				image: '/assets/img/portfolio/geb.png',
+				description: 'Website landing page yayasan lingkungan hidup',
+			},
+			{
+				title: 'Warung Kopi Gunung Roastery',
+				role: 'Fullstack Web Developer',
+				year: 2023,
+				link: 'https://warungkopigunungroastery.com/',
+				image: '/assets/img/portfolio/wkg-roastery.md.png',
+				description: 'Website company profile Warung Kopi Gunung Roastery',
+			},
+			{
+				title: 'Distribusi Sales Marketing',
+				role: 'Fullstack Web Developer',
+				year: 2022,
+				link: 'https://distribusi.com/',
+				image: '/assets/img/portfolio/4-distribusi-large.md.png',
+				description: 'Web aplikasi yang mengelola data distribusi suatu perusahaan / umkm dari proses distribusi, target dan pencapaian sales marketing.',
+			},
+			{
+				title: 'RAB Community',
+				role: 'Fullstack Web Developer',
+				year: 2022,
+				link: 'https://laporanclc.com/',
+				image: '/assets/img/portfolio/3-rab-community-large.md.png',
+				description: 'Web aplikasi perusahaan, organisasi ataupun komunitas yang mempermudah dalam mengelola RAB dari proses pembuatan, pengajuan, diterima, proses belanja dan sampai kepada laporan yang mudah dibaca.',
+			},
+			{
+				title: 'Toko bunga papan ucapan bandung',
+				role: 'Fullstack Web Developer',
+				year: 2022,
+				link: 'https://iseplutpi.site/app/tokobunga/',
+				image: '/assets/img/portfolio/tokobunga.png',
+				description: 'Landing page Toko Bunga Papan Ucapan Bandung View Produk',
+			},
+			{
+				title: 'Coco infinity',
+				role: 'Fullstack Web Developer',
+				year: 2022,
+				link: 'https://iseplutpi.site/app/serabut-kelapa/',
+				image: '/assets/img/portfolio/cocoinfinity.png',
+				description: 'Landing page COCONUT SUPPLIER',
+			},
+			{
+				title: 'Surat Desa',
+				role: 'Fullstack Web Developer',
+				year: 2022,
+				link: 'https://suratdesa.satucinta.com/',
+				image: '/assets/img/portfolio/surat desa.png',
+				description: 'Aplikasi surat menyurat desa wangunsari lembang, penanganan dokumen masyarakat desa.',
+			},
+		];
+		let htmlBuilder = '';
+		portfolios.map(e => {
+			htmlBuilder += `<div class="grid-item col-md-6">
+						<div class="card border-0 shadow-sm mb-4">
+							<img src="${e.image}" class="card-img-top" alt="${e.title}">
+							<div class="card-body">
+								<h5 class="card-title h6">${e.title}</h5>
+								<p class="card-text">
+									Role: <b>${e.role}</b><br>
+									Year: <b>${e.year}</b><br>
+									${e.description}
+									<br>
+									Link: <a href="${e.link}">${e.link}</a>
+								</p>
+							</div>
+						</div>
+					</div>`;
+		});
+		container.innerHTML = `<div class="grid-sizer col-md-6"></div>${htmlBuilder}`;
+	</script>
+
+	<script>
+		setTimeout(() => {
+			$grid = new Masonry(document.querySelector('.grid'), {
+				itemSelector: '.grid-item',
+				columnWidth: '.grid-sizer'
+			});
+		}, 1000);
+	</script>
 </body>
 
 </html>
